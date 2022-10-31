@@ -3,8 +3,6 @@
  * the title, used Google fonts, site icons, contact info, etc.
  */
 module.exports = {
-   // This is your redis URL.
-    redisURL: process.env.REDIS_URL || 'rediss://:5920cadf29bd4caead3e71a034ae8096@global-picked-platypus-31073.upstash.io:31073',
   // This is what we use to identify who you are when you are initialising the website for the first time.
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
